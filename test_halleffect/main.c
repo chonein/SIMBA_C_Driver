@@ -20,7 +20,7 @@ void sigint_handler() {
 void read_hall_effect() {
   static int count = 1000;
   if (count == 1000) {
-    printf("Hall effect %d", *hall_mmio);
+    printf("Hall effect %d\n", *hall_mmio);
     count = 0;
   }
   count++;
