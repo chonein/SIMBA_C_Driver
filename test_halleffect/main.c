@@ -23,6 +23,7 @@ void read_hall_effect() {
     printf("Hall effect %d", *hall_mmio);
     count = 0;
   }
+  count++;
 }
 
 int main() {
