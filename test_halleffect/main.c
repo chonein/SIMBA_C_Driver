@@ -54,6 +54,7 @@ int main() {
     printf("failed to close rover\n");
     return -1;
   }
+  close_mem(hall_mmio);
 
   return 0;
 }
